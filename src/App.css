@@ -28,11 +28,33 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+
+}
+
+.addnew{
+  margin-right: 200px;
+}
+
+.headerTitle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  padding: 20px;
+
+}
+/* 
+.buttonAdd{
+  margin: 5px;
+  
+} */
+
+.buttonAdd button {
+  margin: 10px;
 }
