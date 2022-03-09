@@ -42,8 +42,9 @@ const App = () => {
 
     data.filter((item) => {
       if (parseInt(item.id) === parseInt(id)) {
-        setEditValue(item);
+        return setEditValue(item);
       }
+      return item;
     });
 
     // console.log(id, editValue);
